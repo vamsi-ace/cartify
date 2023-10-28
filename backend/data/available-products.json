@@ -1,0 +1,62 @@
+[
+  {
+    "id": "m1",
+    "name": "Laptop",
+    "price": "1,23,899",
+    "image": "images/Laptop.avif"
+  },
+  {
+    "id": "m2",
+    "name": "Phone",
+    "price": "71,299",
+    "image": "images/Phone.avif"
+  },
+  {
+    "id": "m3",
+    "name": "Wireless EarPhones",
+    "price": "1799",
+    "image": "images/Wireless.avif"
+  },
+  {
+    "id": "m4",
+    "name": "LED TV",
+    "price": "123099",
+    "image": "images/TV.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "Shoes",
+    "price": "9.99",
+    "image": "images/Shoes.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "Tennis Racquet",
+    "price": "10.99",
+    "image": "images/Tennis.avif"
+  },
+  {
+    "id": "m7",
+    "name": "Camera",
+    "price": "17.99",
+    "image": "images/camera.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "Chocolates",
+    "price": "15.99",
+    "image": "images/Chocolate.avif"
+  },
+  {
+    "id": "m9",
+    "name": "Refrigerator",
+    "price": "13.99",
+    "image": "images/refrigerator.webp"
+  },
+  {
+    "id": "m10",
+    "name": "Lemon Cheesecake",
+    "price": "6.99",
+    "image": "images/lemon-cheesecake.jpg"
+  }
+]

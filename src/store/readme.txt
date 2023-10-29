@@ -1,0 +1,1 @@
+this cart data is required in cartButton, cartComponent, we need this data in more than single component 

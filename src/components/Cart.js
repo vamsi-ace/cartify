@@ -12,12 +12,16 @@ function Cart() {
         UserProgessCxt.hideCart()
     }
 
+    function handleGoToCheckout(){
+        UserProgessCxt.showCheckout()
+    }
+
     const cartTotal = cartCxt.items.reduce((totalPrice, item) => 
         totalPrice+( item.quantity * +item.price),
         0
     );
     return (
-        <Modal className="cart" open = {UserProgessCxt.progress === 'cart' } >
+        <Modal className="cart" open = {UserProgessCxt.progress === 'cart' } onClose = {UserProgessCxt.progress === 'cart' ? handleCloseCart : null}  >
             <h2> Cart </h2>
             <ul>
                 {cartCxt.items.map(item => 
@@ -33,7 +37,10 @@ function Cart() {
             <p className="cart-total"> {cartTotal} </p>
             <p className="modal-actions">
                 <Button textOnly onClick = {handleCloseCart}> Close </Button>
-                <Button onClick = {handleCloseCart}> Checkout </Button>
+                {
+                    cartCxt.items.length > 0 &&
+                <Button onClick = {handleGoToCheckout}> Checkout </Button>
+                }
             </p>
         </Modal>
     )

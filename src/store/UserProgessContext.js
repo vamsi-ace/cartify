@@ -29,11 +29,11 @@ export function UserProgressContextProvider({children}){
     }
 
     function hideCheckout(){
-        setUserProgress('checkout');
+        setUserProgress('');
     }
 
     function showCheckout(){   
-        setUserProgress('');
+        setUserProgress('checkout');
     } 
 
     const userProgressContext = {

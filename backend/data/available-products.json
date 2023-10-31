@@ -2,13 +2,13 @@
   {
     "id": "m1",
     "name": "Laptop",
-    "price": "1,23,899",
+    "price": "123899",
     "image": "images/Laptop.avif"
   },
   {
     "id": "m2",
     "name": "Phone",
-    "price": "71,299",
+    "price": "71299",
     "image": "images/Phone.avif"
   },
   {

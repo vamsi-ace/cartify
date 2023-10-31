@@ -1,1 +1,1 @@
-[{"items":[{"id":"m2","name":"Phone","price":"71299","image":"images/Phone.avif","quantity":2}],"customer":{"full-name":"vamsi","email":"rvk.ece.iitkgp@gmail.com","street":"Vizianagaram","postal-code":"535003","city":"vizianagaram"},"id":"694"}]
+[{"items":[{"id":"m2","name":"Phone","price":"71299","image":"images/Phone.avif","quantity":2},{"id":"m5","name":"Shoes","price":"9.99","image":"images/Shoes.jpg","quantity":4}],"customer":{"full-name":"vamsi","email":"vamsipattinson@gmail.com","street":"Natraj colony","postal-code":"535003","city":"vizianagaram"},"id":"42"}]

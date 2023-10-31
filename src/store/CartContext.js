@@ -52,6 +52,12 @@ function cartReducer( state, action ){
             updatedItems[existingCartItemIndex] = updatedItem;
         }
         return {...state, items: updatedItems};
+    
+    }
+
+    // clear the items from the state 
+    if( action.type === "CLEAR_CART"){
+        return {...state, items: []};
     }
 
     return state;
@@ -60,21 +66,21 @@ function cartReducer( state, action ){
 const CartContext = createContext({
     items : [],
     addItem : (item) => {},
-    deleteItem: (id) => {}
+    deleteItem: (id) => {},
+    clearCart: () => {}
 });
 
 export function CartContextProvider({children}){
     const [cart, dispatchCartAction] = useReducer(cartReducer,{items:[]});
     // once this cart state changes 
-    
     // this here will also change and this new context will be distributed to interested components 
     const cartContext = {
         items: cart.items,
         addItem,
-        deleteItem
+        deleteItem,
+        clearCart
     }
 
-    console.log(cartContext);
     
     function addItem(item){
         dispatchCartAction({type:'ADD_ITEM', item:item});
@@ -82,6 +88,10 @@ export function CartContextProvider({children}){
 
     function deleteItem(id){
         dispatchCartAction({type:'DELETE_ITEM', id});
+    }
+
+    function clearCart(){
+        dispatchCartAction({type:"CLEAR_CART"});
     }
      
     return <CartContext.Provider value = {cartContext}>{children}</CartContext.Provider>

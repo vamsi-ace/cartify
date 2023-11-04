@@ -1,8 +1,8 @@
-function Button({children, textOnly, className, ...props }) {
+function Button({children, textOnly, className, onClick, ...props}) {
     let classes = textOnly? 'text-button':'button';
     classes += className;
     return (
-        <button className={classes} {...props}>
+        <button className={classes} onClick={onClick} {...props}>
             {children}
         </button >
     )

@@ -57,7 +57,15 @@ function cartReducer( state, action ){
 
     // clear the items from the state 
     if( action.type === "CLEAR_CART"){
-        return {...state, items: []};
+        return {...state, items: [], coupon: ''};
+    }
+
+    if( action.type === "ADD_COUPON"){
+        if( state.coupon === '' && action.code ){
+            const newCoupon = action.code;
+            return {...state, coupon: newCoupon, message:'Coupon'} ; // Yes to suggest there is a coupon
+        }
+        return {...state, message:'noCoupon'}; // No suggesting that there is no coupon
     }
 
     return state;
@@ -67,18 +75,28 @@ const CartContext = createContext({
     items : [],
     addItem : (item) => {},
     deleteItem: (id) => {},
-    clearCart: () => {}
+    clearCart: () => {},
+    coupon: '',
+    addCoupon:(str) => {},
+    message:'',
+    totalAmount:0,
+    discountAmount: 0
 });
 
 export function CartContextProvider({children}){
-    const [cart, dispatchCartAction] = useReducer(cartReducer,{items:[]});
+    const [cart, dispatchCartAction] = useReducer(cartReducer,{items:[], coupon:'', message:''});
     // once this cart state changes 
     // this here will also change and this new context will be distributed to interested components 
     const cartContext = {
         items: cart.items,
         addItem,
         deleteItem,
-        clearCart
+        clearCart,
+        coupon: cart.coupon,
+        addCoupon,
+        message: cart.message,
+        totalAmount:0,
+        discountAmount: 0
     }
 
     
@@ -92,6 +110,10 @@ export function CartContextProvider({children}){
 
     function clearCart(){
         dispatchCartAction({type:"CLEAR_CART"});
+    }
+
+    function addCoupon(code){
+        dispatchCartAction({type:"ADD_COUPON",code});
     }
      
     return <CartContext.Provider value = {cartContext}>{children}</CartContext.Provider>

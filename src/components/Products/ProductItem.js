@@ -1,6 +1,6 @@
-import Button from "./UI/Button"
+import Button from "../UI/Button"
 import { useContext } from "react"
-import CartContext from "../store/CartContext";
+import CartContext from "../../store/CartContext";
 function ProductItem({product}) {
     const cartCtx = useContext(CartContext);
     function handleAddProductToCart(){
@@ -15,7 +15,7 @@ function ProductItem({product}) {
                     <p className="product-item-price">{product.price}</p>
                 </div>
                 <p className="product-item-actions">
-                    <Button onClick = {handleAddProductToCart}>
+                    <Button className="" onClick = {handleAddProductToCart}>
                         Add to Cart
                     </Button>
                 </p>

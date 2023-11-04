@@ -10,6 +10,7 @@ async function sendHttpRequest(url,config){
     if( !response.ok ){
         throw new Error(resData.message || 'Something went wrong');
     }
+    console.log(resData);
     return resData;
 }
 
@@ -23,8 +24,11 @@ function useHttp(url , config, initialData) {
         setData(initialData);
     }
 
-    // sendRequest() utility ufunction that updates the state based on the data that is received after the request 
+    function clearError(){
+        setError('');
+    }
 
+    // sendRequest() utility ufunction that updates the state based on the data that is received after the request 
 
     const sendRequest = useCallback(
         async function sendRequest(data){
@@ -57,7 +61,8 @@ function useHttp(url , config, initialData) {
         isLoading,
         error,
         sendRequest,
-        clearData
+        clearData,
+        clearError
     }
 }
 

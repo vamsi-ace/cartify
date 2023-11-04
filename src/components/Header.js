@@ -20,8 +20,8 @@ function Header() {
             <div id = 'title'>
                 <h1> React Store </h1>
             </div>
-            <nav>
-                <Button textOnly={true} onClick = {handleShowCart}> Cart {cartItems}</Button>
+            <nav className="product-item">
+                <Button className = "" textOnly={true} onClick = {handleShowCart}> Cart ({cartItems})</Button>
             </nav>
         </header>
     )

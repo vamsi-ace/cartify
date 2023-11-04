@@ -1,11 +1,10 @@
 import './App.css';
 import Header from './components/Header';
-import Products from './components/Products';
+import Products from './components/Products/Products';
 import {CartContextProvider} from './store/CartContext';
 import { UserProgressContextProvider } from './store/UserProgessContext';
-import Cart from './components/Cart';
-import CheckOut from './components/CheckOut';
-
+import Cart from './components/Cart/Cart';
+import CheckOut from './components/Cart/CheckOut';
 function App() {
   return (
     // eslint-disable-next-line react/jsx-no-undef

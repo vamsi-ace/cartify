@@ -1,6 +1,7 @@
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import express from 'express';
+import request from 'supertest';
 
 import dotenv from 'dotenv';
 import AppError from './utils/AppError.js';
@@ -16,10 +17,11 @@ import orders from './controllers/orderController.js';
 // Load environment variables from config file
 dotenv.config({ path: './../config.env' });
 
+const PORT = process.env.API_PORT;
+ 
 const app = express();
 
 app.use(bodyParser.json());
-app.use(express.static('backend/public'));
 
 app.use(cors());
 
@@ -35,6 +37,6 @@ app.all('*', (req, res, next) => {
 
 app.use(globalErrorHandler);
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
   console.log('listening');
 });

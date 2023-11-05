@@ -1,6 +1,7 @@
 import Button from "../UI/Button"
 import { useContext } from "react"
 import CartContext from "../../store/CartContext";
+
 function ProductItem({product}) {
     const cartCtx = useContext(CartContext);
     function handleAddProductToCart(){

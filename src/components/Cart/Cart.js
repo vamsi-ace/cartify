@@ -1,4 +1,5 @@
 import Modal from "../UI/Modal"
+import React from "react";
 import CartContext from "../../store/CartContext"
 import { useContext, } from "react"
 import useHttp from "../hooks/useHttp";
@@ -12,13 +13,15 @@ import CouponMessage from "./CouponMessage";
 
 const requestConfig = {};
 
+const PORT = 5000;
+
 function Cart() {
     const cartCxt = useContext(CartContext);
     const UserProgessCxt = useContext(UserProgressContext);
     let Discount = (cartCxt.message === 'Coupon' ? 0.9 : 1);
 
 
-    const {data}= useHttp('http://localhost:3000/admin/discount',requestConfig, '' );
+    const {data}= useHttp(`http://localhost:${PORT}/admin/discount`,requestConfig, '' );
 
     function handleCloseCart(){
         UserProgessCxt.hideCart()

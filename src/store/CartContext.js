@@ -1,4 +1,4 @@
-import { createContext, useReducer} from "react"
+import { createContext, useReducer, React } from "react"
 
 function cartReducer( state, action ){
     if( action.type === 'ADD_ITEM'){

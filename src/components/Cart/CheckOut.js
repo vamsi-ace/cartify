@@ -14,13 +14,15 @@ const requestConfig = {
     },
 };
 
+const PORT = 5000;
+
 function CheckOut() {
     
     const UserProgessCxt = useContext(UserProgressContext);
     const cartCxt = useContext(CartContext);
     
     // making the 
-    const {data,isLoading:isSending, error, sendRequest, clearData, clearError} = useHttp('http://localhost:3000/orders', requestConfig);
+    const {data,isLoading:isSending, error, sendRequest, clearData, clearError} = useHttp(`http://localhost:${PORT}/orders`, requestConfig);
 
     let cartTotal = cartCxt.items.reduce((totalPrice, item) => totalPrice + item.quantity*item.price , 0 );
     let Discount = (cartCxt.message === 'Coupon' ? 0.9 : 1);
@@ -94,5 +96,4 @@ function CheckOut() {
     )
 }
 
-export
- default CheckOut
+export default CheckOut

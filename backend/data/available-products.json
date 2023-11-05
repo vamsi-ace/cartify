@@ -3,60 +3,60 @@
     "id": "m1",
     "name": "Laptop",
     "price": "123899",
-    "image": "images/Laptop.avif"
+    "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg"
   },
   {
     "id": "m2",
     "name": "Phone",
     "price": "71299",
-    "image": "images/Phone.avif"
+    "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg"
   },
   {
     "id": "m3",
     "name": "Wireless EarPhones",
     "price": "1799",
-    "image": "images/Wireless.avif"
+    "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg"
   },
   {
     "id": "m4",
     "name": "LED TV",
     "price": "123099",
-    "image": "images/TV.jpg"
+    "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg"
   },
   {
     "id": "m5",
-    "name": "Shoes",
-    "price": "9.99",
-    "image": "images/Shoes.jpg"
+    "name": "Sofa",
+    "price": "45999",
+    "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg"
   },
   {
     "id": "m6",
     "name": "Tennis Racquet",
-    "price": "10.99",
-    "image": "images/Tennis.avif"
+    "price": "12099",
+    "image": "https://img.freepik.com/premium-photo/tennis-racket-ball-3d-render-blue_398034-236.jpg"
   },
   {
     "id": "m7",
     "name": "Camera",
-    "price": "17.99",
-    "image": "images/camera.jpg"
+    "price": "21799",
+    "image": "https://images.unsplash.com/photo-1594672581051-8242a50bf913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8&w=1000&q=80"
   },
   {
     "id": "m8",
-    "name": "Chocolates",
-    "price": "15.99",
-    "image": "images/Chocolate.avif"
+    "name": "Coffee Machine",
+    "price": "24999",
+    "image": "https://img.freepik.com/premium-photo/coffee-machine-against-black-background-with-its-sleek-modern-design-creating-sense-sophistication-elegance-generative-ai_579956-3695.jpg"
   },
   {
     "id": "m9",
     "name": "Refrigerator",
-    "price": "13.99",
-    "image": "images/refrigerator.webp"
+    "price": "23299",
+    "image": "https://na.panasonic.com/ca/sites/default/files/styles/product_main/public/2019-02/nr-d535s-2.jpg?itok=7gTdt_b8"
   },
   {
     "id": "m10",
-    "name": "Lemon Cheesecake",
-    "price": "6.99",
-    "image": "images/lemon-cheesecake.jpg"
+    "name": "Bi-Cycle",
+    "price": "6999",
+    "image": "https://i.pinimg.com/736x/df/df/09/dfdf09dd10be0e75535e45be2ae87689.jpg"
   }
 ]

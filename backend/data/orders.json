@@ -5,201 +5,131 @@
         "id": "m2",
         "name": "Phone",
         "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "Vizianagaram",
-      "postal-code": "535003",
-      "city": "vizianagaram"
-    },
-    "totalPrice": 71299,
-    "FinalPrice": 71299,
-    "id": "888"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "Vizianagaram",
-      "postal-code": "535003",
-      "city": "vizianagaram"
-    },
-    "totalPrice": 71299,
-    "FinalPrice": 71299,
-    "id": "841"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "Vizianagaram",
-      "postal-code": "535003",
-      "city": "vizianagaram"
-    },
-    "totalPrice": 64169,
-    "FinalPrice": 57752,
-    "id": "214"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "a",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "po",
-      "postal-code": "535003",
-      "city": "s"
-    },
-    "totalPrice": 71299,
-    "FinalPrice": 71299,
-    "id": "633"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      },
-      {
-        "id": "m4",
-        "name": "LED TV",
-        "price": "123099",
-        "image": "images/TV.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m5",
-        "name": "Shoes",
-        "price": "9.99",
-        "image": "images/Shoes.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m8",
-        "name": "Chocolates",
-        "price": "15.99",
-        "image": "images/Chocolate.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "Vizianagaram",
-      "postal-code": "535003",
-      "city": "vizianagaram"
-    },
-    "totalPrice": 174981,
-    "FinalPrice": 157482,
-    "id": "347"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
-      "street": "Vizianagaram",
-      "postal-code": "535003",
-      "city": "vizianagaram"
-    },
-    "totalPrice": 64169,
-    "FinalPrice": 57752,
-    "id": "64"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "images/Phone.avif",
+        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
         "quantity": 1
       },
       {
         "id": "m3",
         "name": "Wireless EarPhones",
         "price": "1799",
-        "image": "images/Wireless.avif",
+        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
         "quantity": 1
       },
       {
         "id": "m1",
         "name": "Laptop",
         "price": "123899",
-        "image": "images/Laptop.avif",
+        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m5",
+        "name": "Sofa",
+        "price": "45999",
+        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "full-name": "test",
+      "email": "test@gmail.com",
+      "street": "test",
+      "postal-code": "111111",
+      "city": "test"
+    },
+    "totalPrice": 242996,
+    "FinalPrice": 242996,
+    "id": "188"
+  },
+  {
+    "items": [
+      {
+        "id": "m2",
+        "name": "Phone",
+        "price": "71299",
+        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m3",
+        "name": "Wireless EarPhones",
+        "price": "1799",
+        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m1",
+        "name": "Laptop",
+        "price": "123899",
+        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
         "quantity": 1
       },
       {
         "id": "m4",
         "name": "LED TV",
         "price": "123099",
-        "image": "images/TV.jpg",
+        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
         "quantity": 1
       },
       {
         "id": "m5",
-        "name": "Shoes",
-        "price": "9.99",
-        "image": "images/Shoes.jpg",
+        "name": "Sofa",
+        "price": "45999",
+        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "full-name": "test",
+      "email": "test@gmail.com",
+      "street": "test",
+      "postal-code": "111111",
+      "city": " test"
+    },
+    "totalPrice": 366095,
+    "FinalPrice": 366095,
+    "id": "976"
+  },
+  {
+    "items": [
+      {
+        "id": "m2",
+        "name": "Phone",
+        "price": "71299",
+        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
         "quantity": 1
       },
       {
-        "id": "m6",
-        "name": "Tennis Racquet",
-        "price": "10.99",
-        "image": "images/Tennis.avif",
+        "id": "m3",
+        "name": "Wireless EarPhones",
+        "price": "1799",
+        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m1",
+        "name": "Laptop",
+        "price": "123899",
+        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m5",
+        "name": "Sofa",
+        "price": "45999",
+        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
         "quantity": 1
       }
     ],
     "customer": {
       "full-name": "vamsi",
-      "email": "rvk.ece.iitkgp@gmail.com",
+      "email": "vamsipattinson@gmail.com",
       "street": "Vizianagaram",
       "postal-code": "535003",
       "city": "vizianagaram"
     },
-    "totalPrice": 320116,
-    "FinalPrice": 320116,
-    "id": "347"
+    "totalPrice": 218696,
+    "FinalPrice": 196826,
+    "id": "468"
   }
 ]

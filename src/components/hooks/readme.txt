@@ -1,6 +1,6 @@
 let's improve User Experience of sending the requests 
-Checkout and Products components they both need to send http request, they then also in the end need to deal with
-different request state ( fail, loading, success ).
+Checkout and Products components and Coupon Button they all need to send http request, they then also in the end need to deal with
+the received data ( fail, loading, success ).
 It is the same logic we need in different components to update the UI, since it is stateful logic that impacts the UI,
 we need a custom hook, just creating a custom standard function won't do the trick 
 
@@ -19,6 +19,8 @@ We can expose the sendRequest method to the components and they can call it when
 but to make it more convenient, We can use useEffect inside we call sendRequest, since we are updating state in sendRequest 
 we should wrap the function inside a useCallback. 
 
-To control when sendRequest is called we can add a check ( config.method === 'GET' )
-then the sendRequest is executed rightaway and for the other requests we expose sendRequest for those other components to 
-execute it whenever they want 
+To control when the sendRequest is called we can add a check condition 
+( (config && (config.method === 'GET' || !config.method )) || !config )
+
+The sendRequest is executed rightaway for the GET requests but for the other requests we expose sendRequest for
+those other components to execute it whenever they want 

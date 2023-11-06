@@ -12,15 +12,15 @@
     "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg"
   },
   {
-    "id": "m3",
-    "name": "Wireless EarPhones",
-    "price": "1799",
-    "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg"
-  },
-  {
     "id": "m4",
     "name": "LED TV",
     "price": "123099",
+    "image": "https://img.global.news.samsung.com/in/wp-content/uploads/2021/04/Neo-QLED-8K_KV_Print_H.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Wireless EarPhones",
+    "price": "1799",
     "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg"
   },
   {

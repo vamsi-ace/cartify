@@ -7,7 +7,7 @@ function generateDiscountCode() {
     return discountCode;
 }
 
-const couponInterval = 3;
+const couponInterval = process.env.CouponInterval;
 
 function couponAlreadyExistsfortheOrder( orderCount, DiscountCodeList ){
   // for an 3rd order( orderCount = 2 ) you check if the coupon is present already at index 0 of DiscountCodeList, 

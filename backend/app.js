@@ -1,7 +1,6 @@
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import express from 'express';
-import request from 'supertest';
 
 import dotenv from 'dotenv';
 import AppError from './utils/AppError.js';

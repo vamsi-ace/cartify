@@ -24,7 +24,7 @@ const orders = catchAsync(async (req, res) => {
       const orderData = req.body.order;
       
       if (orderData === null || orderData.items === null ) {
-      return res.status(400).json({ message: 'Missing data.' });
+      return res.status(400).json({ message: 'Missing Cart Items, Add Items.' });
     }
   
   

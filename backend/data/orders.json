@@ -2,20 +2,6 @@
   {
     "items": [
       {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m3",
-        "name": "Wireless EarPhones",
-        "price": "1799",
-        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
-        "quantity": 1
-      },
-      {
         "id": "m1",
         "name": "Laptop",
         "price": "123899",
@@ -23,113 +9,50 @@
         "quantity": 1
       },
       {
-        "id": "m5",
-        "name": "Sofa",
-        "price": "45999",
-        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "test",
-      "email": "test@gmail.com",
-      "street": "test",
-      "postal-code": "111111",
-      "city": "test"
-    },
-    "totalPrice": 242996,
-    "FinalPrice": 242996,
-    "id": "188"
-  },
-  {
-    "items": [
-      {
         "id": "m2",
         "name": "Phone",
         "price": "71299",
         "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m3",
-        "name": "Wireless EarPhones",
-        "price": "1799",
-        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m1",
-        "name": "Laptop",
-        "price": "123899",
-        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m4",
-        "name": "LED TV",
-        "price": "123099",
-        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m5",
-        "name": "Sofa",
-        "price": "45999",
-        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
-        "quantity": 1
-      }
-    ],
-    "customer": {
-      "full-name": "test",
-      "email": "test@gmail.com",
-      "street": "test",
-      "postal-code": "111111",
-      "city": " test"
-    },
-    "totalPrice": 366095,
-    "FinalPrice": 366095,
-    "id": "976"
-  },
-  {
-    "items": [
-      {
-        "id": "m2",
-        "name": "Phone",
-        "price": "71299",
-        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m3",
-        "name": "Wireless EarPhones",
-        "price": "1799",
-        "image": "https://img.freepik.com/premium-photo/headphones-dark-black-background_68747-106.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m1",
-        "name": "Laptop",
-        "price": "123899",
-        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
-        "quantity": 1
-      },
-      {
-        "id": "m5",
-        "name": "Sofa",
-        "price": "45999",
-        "image": "https://img.freepik.com/premium-photo/living-room-with-black-sofa-black-wall-flower-minimalism-generative-ai_446633-6264.jpg",
         "quantity": 1
       }
     ],
     "customer": {
       "full-name": "vamsi",
-      "email": "vamsipattinson@gmail.com",
+      "email": "rvk.ece.iitkgp@gmail.com",
       "street": "Vizianagaram",
       "postal-code": "535003",
       "city": "vizianagaram"
     },
-    "totalPrice": 218696,
-    "FinalPrice": 196826,
-    "id": "468"
+    "totalPrice": 195198,
+    "FinalPrice": 195198,
+    "id": "594"
+  },
+  {
+    "items": [
+      {
+        "id": "m1",
+        "name": "Laptop",
+        "price": "123899",
+        "image": "https://img.freepik.com/premium-photo/laptop-computer-with-row-pink-lighting-blank-screen-place-dark-background-3d-illustration-image_37129-1371.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m2",
+        "name": "Phone",
+        "price": "71299",
+        "image": "https://img.freepik.com/premium-photo/smartphone-mockup_863013-74984.jpg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "full-name": "vamsi",
+      "email": "rvk.ece.iitkgp@gmail.com",
+      "street": "Vizianagaram",
+      "postal-code": "535003",
+      "city": "vizianagaram"
+    },
+    "totalPrice": 195198,
+    "FinalPrice": 195198,
+    "id": "892"
   }
 ]

@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises'
 import catchAsync from './../utils/CatchAsync.js'
+import 'dotenv/config'
 
 function generateDiscountCode() {
     // Generate a random alphanumeric discount code
@@ -7,7 +8,7 @@ function generateDiscountCode() {
     return discountCode;
 }
 
-const couponInterval = process.env.CouponInterval;
+const couponInterval = 3;
 
 function couponAlreadyExistsfortheOrder( orderCount, DiscountCodeList ){
   // for an 3rd order( orderCount = 2 ) you check if the coupon is present already at index 0 of DiscountCodeList, 
